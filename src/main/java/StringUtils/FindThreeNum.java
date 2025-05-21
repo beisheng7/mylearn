@@ -1,4 +1,4 @@
-package test1;
+package StringUtils;
 
 import org.apache.commons.lang3.StringUtils;
 
