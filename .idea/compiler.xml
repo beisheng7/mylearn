@@ -6,11 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mylearn" />
+        <module name="arithmetic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="arithmetic" target="8" />
       <module name="mylearn" target="8" />
     </bytecodeTargetLevel>
   </component>
