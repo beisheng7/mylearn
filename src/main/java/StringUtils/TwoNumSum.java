@@ -38,6 +38,7 @@ public class TwoNumSum {
     public static void main(String[] args) {
         int[] ints = twoSum(new int[]{2, 7, 11, 15}, 9);
         System.out.println(ints);
+        System.out.println(System.nanoTime());
     }
 
     /**

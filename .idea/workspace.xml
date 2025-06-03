@@ -4,24 +4,112 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ba1f158-850e-41d1-a649-318858b81532" name="Changes" comment="" />
+    <list default="true" id="3ba1f158-850e-41d1-a649-318858b81532" name="Changes" comment="chore: 删除 .idea/modules.xml 文件 ; 请提供具体的代码变更内容或描述，以便我为您生成合适的提交信息。 ; 更新 .idea/misc.xml 文件，添加 XML 声明和 ExternalStorageConfigurationManager 配置 ; 添加 jarRepositories.xml 文件以配置远程仓库 ; 删除不再使用的Maven库配置文件 ; 修改编译器配置文件中的模块名称，将模块名称从`mylearn`改为`arithmetic`以保持一致性。 ; 请提供一些代码变更的细节或描述，以便我为您编写合适的提交信息。 ; 添加 AddStrings 类以支持字符串形式的非负整数相加功能 ; 添加twoSum2方法以支持通过哈希表查找两数之和的索引">
+      <change afterPath="$PROJECT_DIR$/.idea/JapiProjectStorage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mt/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringUtils/AddStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringUtils/AddStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringUtils/TwoNumSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringUtils/TwoNumSum.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2rL7k7mGO72rklXWWUr8MjdSO24" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.CodyAccountHistoryMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyConvertUrlToCodebaseName&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyHistoryLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ToggleCodyToolWindowAfterMigration&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ext.zhengtianyue1/learn/mylearn&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.test">
+    <configuration name="AddStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringUtils.AddStrings" />
+      <module name="arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringUtils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindThreeNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringUtils.FindThreeNum" />
+      <module name="arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringUtils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoNumSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringUtils.TwoNumSum" />
+      <module name="arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringUtils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mt.test" />
+      <module name="arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.AddStrings" />
+        <item itemvalue="Application.TwoNumSum" />
+        <item itemvalue="Application.FindThreeNum" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -32,6 +120,41 @@
       <option name="presentableId" value="Default" />
       <updated>1736326641542</updated>
     </task>
+    <task id="LOCAL-00001" summary="mylearn ; 重命名包路径，将`test1`改为`StringUtils` ; 重命名包名，将`test1`包重命名为`StringUtils`">
+      <option name="closed" value="true" />
+      <created>1747812355711</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747812355711</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chore: 删除 .idea/modules.xml 文件 ; 请提供具体的代码变更内容或描述，以便我为您生成合适的提交信息。 ; 更新 .idea/misc.xml 文件，添加 XML 声明和 ExternalStorageConfigurationManager 配置 ; 添加 jarRepositories.xml 文件以配置远程仓库 ; 删除不再使用的Maven库配置文件 ; 修改编译器配置文件中的模块名称，将模块名称从`mylearn`改为`arithmetic`以保持一致性。 ; 请提供一些代码变更的细节或描述，以便我为您编写合适的提交信息。 ; 添加 AddStrings 类以支持字符串形式的非负整数相加功能 ; 添加twoSum2方法以支持通过哈希表查找两数之和的索引">
+      <option name="closed" value="true" />
+      <created>1748937817907</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748937817907</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: 删除 .idea/misc.xml 文件中的 XML 声明" />
+    <MESSAGE value="mylearn" />
+    <MESSAGE value="mylearn ; 重命名包路径，将`test1`改为`StringUtils` ; 重命名包名，将`test1`包重命名为`StringUtils`" />
+    <MESSAGE value="chore: 删除 .idea/modules.xml 文件 ; 请提供具体的代码变更内容或描述，以便我为您生成合适的提交信息。 ; 更新 .idea/misc.xml 文件，添加 XML 声明和 ExternalStorageConfigurationManager 配置 ; 添加 jarRepositories.xml 文件以配置远程仓库 ; 删除不再使用的Maven库配置文件 ; 修改编译器配置文件中的模块名称，将模块名称从`mylearn`改为`arithmetic`以保持一致性。 ; 请提供一些代码变更的细节或描述，以便我为您编写合适的提交信息。 ; 添加 AddStrings 类以支持字符串形式的非负整数相加功能 ; 添加twoSum2方法以支持通过哈希表查找两数之和的索引" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: 删除 .idea/modules.xml 文件 ; 请提供具体的代码变更内容或描述，以便我为您生成合适的提交信息。 ; 更新 .idea/misc.xml 文件，添加 XML 声明和 ExternalStorageConfigurationManager 配置 ; 添加 jarRepositories.xml 文件以配置远程仓库 ; 删除不再使用的Maven库配置文件 ; 修改编译器配置文件中的模块名称，将模块名称从`mylearn`改为`arithmetic`以保持一致性。 ; 请提供一些代码变更的细节或描述，以便我为您编写合适的提交信息。 ; 添加 AddStrings 类以支持字符串形式的非负整数相加功能 ; 添加twoSum2方法以支持通过哈希表查找两数之和的索引" />
   </component>
 </project>

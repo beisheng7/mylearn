@@ -20,7 +20,9 @@ public class AddStrings {
 //        ;
         String num1 = "123";
         String num2 = "987";
-        System.out.println(addSting(num1, num2));
+        //System.out.println(addSting(num1, num2));
+        System.out.println(reverse(2147483647));
+
     }
 
     public static String addSting(String num1,String num2){
@@ -29,7 +31,6 @@ public class AddStrings {
         while (i>= 0|| j>=0||carry!=0){
             int n1 = (i>=0)? num1.charAt(i) - '0':0;
             int n2 = (j>=0)?num2.charAt(j) - '0':0;
-
             int sum = n1+n2+carry;
             sb.append(sum%10);
             carry = sum/10;
@@ -38,5 +39,33 @@ public class AddStrings {
         }
         return sb.reverse().toString();
     }
+    /**
+     * 给你一个 32 位的有符号整数 x ，返回将 x 中的数字部分反转后的结果。
+     *
+     * 如果反转后整数超过 32 位的有符号整数的范围 [−231,  231 − 1] ，就返回 0。
+     *
+     * 假设环境不允许存储 64 位整数（有符号或无符号）。
+     */
+
+    public static int reverse(int x) {
+        int res = 0;
+        while (x != 0) {
+            int pop = x % 10;       // 取出最低位
+            x = x / 10;             // 去掉最低位
+
+            // 判断溢出
+            if (res > Integer.MAX_VALUE / 10 || (res == Integer.MAX_VALUE / 10 && pop > 7)) {
+                return 0;
+            }
+            if (res < Integer.MIN_VALUE / 10 || (res == Integer.MIN_VALUE / 10 && pop < -8)) {
+                return 0;
+            }
+
+            res = res * 10 + pop;
+        }
+        return res;
+    }
+
+
 
 }
